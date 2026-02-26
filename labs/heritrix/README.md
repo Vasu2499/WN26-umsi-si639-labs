@@ -107,7 +107,7 @@ Once in the job itself, the very first thing we'll want to do is update the job 
 
 Configuration of Heritrix jobs are almost 100% configured via an XML file called `crawler-beans.cxml`.  We've discussed Docker a bit in the past, but it's worth repeating that this file is _inside_ the Docker container.  There are ways to mount this file and edit it that way, but the Heritrix GUI conveniently makes this file editable via this approach.
 
-Next, download or open a **mostly pre-configured crawl XML file** here: [https://ghukill.github.io/umsi-si639-labs/heritrix/kevin-bacon-job.xml](https://ghukill.github.io/umsi-si639-labs/heritrix/kevin-bacon-job.xml).  Our goal is to copy the contents of this file, then replace the entirety of the open file editor in Heritrix with our config XML.
+Next, download or open a **mostly pre-configured crawl XML file** here: [https://ghukill.github.io/umsi-si639-labs/labs/heritrix/kevin-bacon-job.xml](https://ghukill.github.io/umsi-si639-labs/labs/heritrix/kevin-bacon-job.xml).  Our goal is to copy the contents of this file, then replace the entirety of the open file editor in Heritrix with our config XML.
 
 Just to make sure we don't lose it, look for the _teeny tiny_ "Save Changes" button in the lower-left and click it:
 
