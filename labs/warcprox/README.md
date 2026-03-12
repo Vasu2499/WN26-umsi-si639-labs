@@ -464,8 +464,7 @@ More on the special request header here: [https://github.com/internetarchive/war
 
 ## Reflection Prompts
 
-1-
+1- Does `warcprox` remind you of any other patterns in archiving, web or otherwise, you've encountered?  No wrong answers here 🙂.  I think it's difficult to think of another example were we passively capture + clone information, and _that_ is what we choose to archive.
 
-2- 
+2- Once `warcprox` captures network requests and responses in the WARC file, what's next?  We've alluded to above how `warcprox` might fit in a bigger web archiving architecture, but thinking big picture, what's _missing_ from these raw WARC files?  Is it risky to decopule the WARC generation from other important work like collection and metadata generation?
 
-3- 
