@@ -1,1 +1,15 @@
-collection: umich-protest-archive workers: 2 generateWACZ: true seeds: - url: https://record.umich.edu scopeType: domain - url: https://centralstudentgovernment.umich.edu scopeType: prefix
+collection: umich-protest-pilot-02
+workers: 1
+generateWACZ: true
+limit: 20
+
+seeds:
+  - url: https://record.umich.edu
+    scopeType: domain
+    exclude:
+      - ".*\\/topics\\/.*"
+      - ".*\\/category\\/.*"
+      - ".*\\/tag\\/.*"
+
+  - url: https://president.umich.edu
+    scopeType: prefix
