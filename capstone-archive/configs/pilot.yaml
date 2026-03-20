@@ -1,0 +1,1 @@
+collection: umich-protest-archive workers: 2 generateWACZ: true seeds: - url: https://record.umich.edu scopeType: domain - url: https://centralstudentgovernment.umich.edu scopeType: prefix
