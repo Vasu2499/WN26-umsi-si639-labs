@@ -1,0 +1,23 @@
+collection: umich-protest-institutional-01
+workers: 1
+generateWACZ: true
+limit: 50
+
+seeds:
+  - url: https://record.umich.edu
+    scopeType: domain
+    include:
+      - ".*record\\.umich\\.edu\\/articles\\/.*"
+    exclude:
+      - ".*\\/topics\\/.*"
+      - ".*\\/category\\/.*"
+      - ".*\\/tag\\/.*"
+      - ".*\\/about\\/.*"
+      - ".*\\/contacts\\/.*"
+      - ".*\\/privacy\\/.*"
+
+  - url: https://president.umich.edu
+    scopeType: prefix
+    exclude:
+      - ".*\\/about\\/.*"
+      - ".*mailto:.*"
