@@ -4,41 +4,41 @@ generateWACZ: true
 limit: 40
 
 seeds:
-  - url: https://record.umich.edu
-    scopeType: domain
+  - url: https://record.umich.edu/
+    scopeType: custom
     include:
-      - ".*record\\.umich\\.edu\\/articles\\/.*"
+      - "record\\.umich\\.edu/articles/"
     exclude:
-      - ".*\\/topics\\/.*"
-      - ".*\\/category\\/.*"
-      - ".*\\/tag\\/.*"
-      - ".*\\/features\\/.*"
-      - ".*\\/faculty-staff-spotlight\\/.*"
-      - ".*\\/multimedia\\/.*"
-      - ".*\\/feed\\/.*"
-      - ".*\\/advertise\\/.*"
-      - ".*\\/subscribe-record\\/.*"
-      - ".*\\/old-school\\/.*"
-      - ".*\\/um-heritage\\/.*"
-      - ".*\\/this-week-um-history\\/.*"
-      - ".*\\/happened-at-um\\/.*"
-      - ".*\\/in-the-news\\/.*"
-      - ".*\\/about\\/.*"
-      - ".*\\/contacts\\/.*"
-      - ".*\\/past-issues\\/.*"
-      - ".*\\/privacy\\/.*"
-      - ".*\\/wp-content\\/.*"
+      - "/topics/"
+      - "/category/"
+      - "/tag/"
+      - "/features/"
+      - "/faculty-staff-spotlight/"
+      - "/multimedia/"
+      - "/feed/"
+      - "/advertise/"
+      - "/subscribe-record/"
+      - "/old-school/"
+      - "/um-heritage/"
+      - "/this-week-um-history/"
+      - "/happened-at-um/"
+      - "/in-the-news/"
+      - "/about/"
+      - "/contacts/"
+      - "/past-issues/"
+      - "/privacy/"
+      - "/wp-content/"
 
-  - url: https://president.umich.edu
-    scopeType: prefix
+  - url: https://president.umich.edu/
+    scopeType: custom
     include:
-      - ".*president\\.umich\\.edu\\/news-communications\\/statements\\/.*"
-      - ".*president\\.umich\\.edu\\/news-communications\\/messages-to-the-community\\/.*"
+      - "president\\.umich\\.edu/news-communications/statements/"
+      - "president\\.umich\\.edu/news-communications/messages-to-the-community/"
     exclude:
-      - ".*\\/about\\/.*"
-      - ".*\\/biography\\/.*"
-      - ".*\\/committees\\/.*"
-      - ".*\\/honors-awards\\/.*"
-      - ".*\\/leadership-team\\/.*"
-      - ".*\\/initiatives-and-focus-areas\\/.*"
-      - ".*mailto:.*"
+      - "/about/"
+      - "/biography/"
+      - "/committees/"
+      - "/honors-awards/"
+      - "/leadership-team/"
+      - "/initiatives-and-focus-areas/"
+      - "mailto:"
